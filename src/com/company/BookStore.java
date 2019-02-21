@@ -5,7 +5,7 @@ public class BookStore extends Store {
 
     public BookStore(String name){
         super(name);
-        this.id = "1";
+        this.id = "11111";
         this.items = new ArrayList<Item>();
     }
 
@@ -19,7 +19,7 @@ public class BookStore extends Store {
         Iterator it = this.items.iterator();
         while(it.hasNext()){
             Item current = (Item)it.next();
-            String pattern = "BookStore " + this.name + ". " + current;
+            String pattern = "Book Store " + this.name + ". " + current;
             pattern += '\n';
             output += pattern;
         }

@@ -5,10 +5,11 @@ import java.util.List;
 
 public class Store extends UserActions{
     String name, id;
-    ArrayList<Store> stores;
-    ArrayList<Item> items;
     ArrayList<Customer> customers;
+    ArrayList<Item> items;
     ArrayList<Observer> observers;
+    ArrayList<Store> stores;
+
 
     public Store() {}
 

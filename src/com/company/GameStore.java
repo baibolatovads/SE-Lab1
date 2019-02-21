@@ -8,7 +8,7 @@ public class GameStore extends Store {
 
     public GameStore(String name){
         super(name);
-        this.id = "3";
+        this.id = "45";
         this.items = new ArrayList<Item>();
     }
 
@@ -22,7 +22,7 @@ public class GameStore extends Store {
         Iterator it = this.items.iterator();
         while(it.hasNext()){
             Item current = (Item)it.next();
-            String pattern = "BookStore " + this.name + ". " + current;
+            String pattern = "Book Store " + this.name + ". " + current;
             pattern += '\n';
             output += pattern;
         }

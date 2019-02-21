@@ -9,7 +9,7 @@ import java.util.Iterator;
 
         public ShoeStore(String name){
             super(name);
-            this.id = "2";
+            this.id = "257";
             this.items = new ArrayList<Item>();
         }
 
